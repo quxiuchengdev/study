@@ -1,0 +1,8 @@
+2016-03-23 16:34:00,030 [doScheduler_Worker-2] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】
+2016-03-23 16:34:00,061 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:35:00,002 [doScheduler_Worker-3] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:35:00,004 [doScheduler_Worker-4] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】
+2016-03-23 16:36:00,053 [doScheduler_Worker-5] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:36:00,054 [doScheduler_Worker-6] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】
+2016-03-23 16:37:00,001 [doScheduler_Worker-7] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:37:00,001 [doScheduler_Worker-8] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】

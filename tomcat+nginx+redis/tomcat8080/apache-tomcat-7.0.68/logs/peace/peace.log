@@ -1,0 +1,38 @@
+2016-03-23 16:33:00,063 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:33:00,085 [doScheduler_Worker-2] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】
+2016-03-23 16:33:00,664 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA同步流程】requsetId:74970
+2016-03-23 16:33:00,716 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【同步版本发布】  流程实例：74970
+2016-03-23 16:33:00,768 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA同步流程】requsetId:74970
+2016-03-23 16:33:00,797 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【同步版本发布】  流程实例：74970
+2016-03-23 16:33:00,836 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA同步流程】requsetId:74971
+2016-03-23 16:33:00,863 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【同步版本发布】  流程实例：74971
+2016-03-23 16:33:00,927 [pool-2-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【开始核对OA数据】GXWH-201603230007_1
+2016-03-23 16:33:00,938 [pool-1-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【开始核对OA数据】GXWH-201603230007_1
+2016-03-23 16:33:00,944 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【开始核对OA数据】GXWH-201603230008_1
+2016-03-23 16:33:00,945 [pool-2-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【版本开始校验路径】GXWH-201603230007
+2016-03-23 16:33:00,955 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【版本开始校验路径】GXWH-201603230008
+2016-03-23 16:33:00,956 [pool-1-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【版本开始校验路径】GXWH-201603230007
+2016-03-23 16:33:00,985 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【校验文件格式】GXWH-201603230008
+2016-03-23 16:33:00,987 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【校验文件MD5】GXWH-201603230008
+2016-03-23 16:33:00,990 [pool-2-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【校验文件格式】GXWH-201603230007
+2016-03-23 16:33:01,004 [pool-2-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【校验文件MD5】GXWH-201603230007
+2016-03-23 16:33:01,191 [pool-1-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【开始异常退回】SVN地址错误GXWH-201603230007
+2016-03-23 16:33:01,194 [pool-1-thread-1] INFO  [com.cyou.peace.modules.apply.utils.WorkOrderUtils] - 【邮件发送信息】主题：【版本发布系统】版本发布失败,接受地址：wanglei_dev@cyou-inc.com,抄送地址:
+2016-03-23 16:33:01,237 [pool-1-thread-1] INFO  [com.cyou.peace.modules.apply.utils.WorkOrderUtils] - 【同步工单数据】OAID:15705,内容2016-03-23 16:33:01
+【发布失败】版本发布失败,OA流程编号GXWH-201603230007,失败信息如下:
+路径:/1.zip,SVN地址错误，路径不存在！
+
+,结果fail
+2016-03-23 16:33:01,708 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【SVN检出到本地,解压】GXWH-201603230008
+2016-03-23 16:33:01,998 [pool-3-thread-1] INFO  [com.cyou.peace.common.utils.svn.SVNDoExportUtil] - export导出开始
+2016-03-23 16:33:02,806 [pool-3-thread-1] INFO  [com.cyou.peace.common.utils.svn.SVNDoExportUtil] - 把版本：52 export 到目录：D:\peace\svnexport\02726aff279c474a9e641473bbb031ba\f4df526762954a2c955f2f2c40619f1a中。
+2016-03-23 16:33:02,809 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【解压文件】：svnkit.zip
+2016-03-23 16:33:03,033 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【规则校验】GXWH-201603230008
+2016-03-23 16:33:03,043 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【发送请求】GXWH-201603230008
+2016-03-23 16:33:03,049 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【发送SVN拷出请求 to 脚本】
+2016-03-23 16:33:03,050 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【发送请求socket】127.0.0.1:20006
+2016-03-23 16:33:03,051 [pool-3-thread-1] INFO  [com.cyou.peace.common.utils.SocketClientUtils] - 【socket】127.0.0.1:20006
+2016-03-23 16:33:04,062 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【系统异常】GXWH-201603230008
+2016-03-23 16:33:04,063 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.utils.WorkOrderUtils] - 【邮件发送信息】主题：【版本发布系统】版本发布系统异常,接受地址：wanglei_dev@cyou-inc.com,抄送地址:
+2016-03-23 16:33:04,067 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.utils.WorkOrderUtils] - 【邮件发送信息】主题：【版本发布系统】版本发布系统异常,接受地址：quxiucheng@cyou-inc.com,抄送地址:
+2016-03-23 16:33:04,069 [pool-3-thread-1] INFO  [com.cyou.peace.modules.apply.utils.WorkOrderUtils] - 【同步工单数据】OAID:15709,内容【2016-03-23 16:33:04 系统异常】(新)更新维护、开服、合服迁移-王蕾-2016-03-23,结果error

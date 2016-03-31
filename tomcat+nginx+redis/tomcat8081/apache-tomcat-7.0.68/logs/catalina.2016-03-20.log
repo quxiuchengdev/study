@@ -1,0 +1,140 @@
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.68
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Feb 8 2016 20:25:54 UTC
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.68.0
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.6.0_45\jre
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.6.0_45-b06
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Sun Microsystems Inc.
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\conf\logging.properties
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\endorsed
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68
+2016-3-20 12:01:41 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\temp
+2016-3-20 12:01:41 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+2016-3-20 12:01:41 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2016-3-20 12:01:42 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+2016-3-20 12:01:42 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8081"]
+2016-3-20 12:01:42 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8019"]
+2016-3-20 12:01:42 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1443 ms
+2016-3-20 12:01:42 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2016-3-20 12:01:42 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.68
+2016-3-20 12:01:44 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-3-20 12:01:44 org.apache.tomcat.websocket.server.WsSci onStartup
+信息: JSR 356 WebSocket (Java WebSocket 1.1) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+2016-3-20 12:01:44 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Attached to RedisSessionHandlerValve
+2016-3-20 12:01:44 com.radiadesign.catalina.session.RedisSessionManager initializeSerializer
+信息: Attempting to use serializer :com.radiadesign.catalina.session.JavaSerializer
+2016-3-20 12:01:44 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Will expire sessions after 30 seconds
+2016-3-20 12:01:44 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\docs
+2016-3-20 12:01:44 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-3-20 12:01:44 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Attached to RedisSessionHandlerValve
+2016-3-20 12:01:44 com.radiadesign.catalina.session.RedisSessionManager initializeSerializer
+信息: Attempting to use serializer :com.radiadesign.catalina.session.JavaSerializer
+2016-3-20 12:01:44 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Will expire sessions after 30 seconds
+2016-3-20 12:01:44 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\docs has finished in 126 ms
+2016-3-20 12:01:44 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\examples
+2016-3-20 12:01:46 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Attached to RedisSessionHandlerValve
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager initializeSerializer
+信息: Attempting to use serializer :com.radiadesign.catalina.session.JavaSerializer
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Will expire sessions after 30 seconds
+2016-3-20 12:01:46 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\examples has finished in 1,405 ms
+2016-3-20 12:01:46 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\host-manager
+2016-3-20 12:01:46 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Attached to RedisSessionHandlerValve
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager initializeSerializer
+信息: Attempting to use serializer :com.radiadesign.catalina.session.JavaSerializer
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Will expire sessions after 30 seconds
+2016-3-20 12:01:46 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\host-manager has finished in 129 ms
+2016-3-20 12:01:46 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\manager
+2016-3-20 12:01:46 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Attached to RedisSessionHandlerValve
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager initializeSerializer
+信息: Attempting to use serializer :com.radiadesign.catalina.session.JavaSerializer
+2016-3-20 12:01:46 com.radiadesign.catalina.session.RedisSessionManager startInternal
+信息: Will expire sessions after 30 seconds
+2016-3-20 12:01:46 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory C:\Users\quxiucheng\Desktop\tomcat8081\apache-tomcat-7.0.68\webapps\manager has finished in 86 ms
+2016-3-20 12:01:46 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8081"]
+2016-3-20 12:01:46 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8019"]
+2016-3-20 12:01:46 org.apache.catalina.startup.Catalina start
+信息: Server startup in 4262 ms
+2016-3-20 12:02:17 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/docs]
+2016-3-20 12:02:17 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/examples]
+2016-3-20 12:02:18 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/manager]
+2016-3-20 12:02:28 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/host-manager]
+2016-3-20 12:02:38 org.springframework.web.servlet.FrameworkServlet initServletBean
+信息: FrameworkServlet 'springMVC': initialization started
+2016-3-20 12:02:38 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing WebApplicationContext for namespace 'springMVC-servlet': startup date [Sun Mar 20 12:02:38 CST 2016]; root of context hierarchy
+2016-3-20 12:02:39 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from file [C:\Users\quxiucheng\Desktop\012work\WEB-INF\classes\spring\spring-context-quartzt.xml]
+2016-3-20 12:02:39 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@43277a30: defining beans [taskJob,taskDetail,taskTrigger,doScheduler]; root of factory hierarchy
+2016-3-20 12:02:39 org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup start
+信息: Starting beans in phase 2147483647
+2016-3-20 12:02:39 org.springframework.scheduling.quartz.SchedulerFactoryBean startScheduler
+信息: Starting Quartz Scheduler now
+2016-3-20 12:02:39 org.springframework.web.servlet.FrameworkServlet initServletBean
+信息: FrameworkServlet 'springMVC': initialization completed in 378 ms
+2016-3-20 12:02:39 org.springframework.web.servlet.DispatcherServlet noHandlerFound
+警告: No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springMVC'
+2016-3-20 12:02:48 org.springframework.web.servlet.DispatcherServlet noHandlerFound
+警告: No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'springMVC'

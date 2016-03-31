@@ -1,0 +1,9 @@
+2016-03-23 16:34:00,029 [doScheduler_Worker-1] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:34:00,056 [doScheduler_Worker-2] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】
+2016-03-23 16:34:20,964 [http-apr-8081-exec-8] INFO  [com.cyou.peace.modules.sys.web.LocalLoginController] - 【用户本地登录】姓名：曲修成，邮箱：quxiucheng@cyou-inc.com，登录ip：127.0.0.1，登录时间：2016-03-23 16:34:20
+2016-03-23 16:35:00,002 [doScheduler_Worker-3] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:35:00,005 [doScheduler_Worker-4] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】
+2016-03-23 16:36:00,003 [doScheduler_Worker-5] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:36:00,003 [doScheduler_Worker-6] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】
+2016-03-23 16:37:00,002 [doScheduler_Worker-7] INFO  [com.cyou.peace.modules.oa.service.OaProcessService] - 【OA】同步开始
+2016-03-23 16:37:00,003 [doScheduler_Worker-8] INFO  [com.cyou.peace.modules.apply.service.ApplyService] - 【同步工单数据】

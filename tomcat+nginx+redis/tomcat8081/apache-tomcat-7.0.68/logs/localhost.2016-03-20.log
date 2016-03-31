@@ -1,0 +1,14 @@
+2016-3-20 12:01:44 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+2016-3-20 12:01:46 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+2016-3-20 12:01:46 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+2016-3-20 12:01:46 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@76705d28')
+2016-3-20 12:02:17 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+2016-3-20 12:02:17 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+2016-3-20 12:02:38 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'springMVC'
