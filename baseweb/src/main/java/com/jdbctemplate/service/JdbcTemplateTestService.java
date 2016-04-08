@@ -5,16 +5,17 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.jdbctemplate.dao.JdbcTemplateTestDao;
-import com.jdbctemplate.entity.JdbcTemplateTestEntity;
+import com.jdbctemplate.entity.User;
 
 @Service
-@Transactional(readOnly=false,value="transactionManager_spring")
+@Transactional(value="transactionManager_spring")
 public class JdbcTemplateTestService {
 	
 	@Autowired
 	private JdbcTemplateTestDao jdbcTemplateTestDao;
 	
-	public JdbcTemplateTestEntity get(String id){
+	@Transactional(readOnly=false)
+	public User get(String id){
 		return jdbcTemplateTestDao.get(id);
 	}
 	

@@ -2,9 +2,10 @@ package com.hibernate.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.hibernate.entity.HibernateTest;
+import com.hibernate.entity.User;
 import com.hibernate.service.HibernateTestService;
 
 
@@ -14,12 +15,13 @@ public class HibernateTestController {
 	@Autowired
 	private HibernateTestService hibernateTestService;
 	
-	@RequestMapping("/hibernate/test")
-	public void testHibernate(){
-		HibernateTest test = new HibernateTest();
-		test.setId("11");
-		test.setName("test");
-		hibernateTestService.save(test);
-		System.out.println("aaaa");
+	@RequestMapping("/hibernate/test/{aa}")
+	public String testHibernate(@PathVariable("aa")String aa){
+//		User test = new User();
+//		test.setId("11");
+//		test.setUsername("test");
+//		hibernateTestService.save(test);
+		System.out.println("aaaa,"+aa);
+		return "index";
 	}
 }

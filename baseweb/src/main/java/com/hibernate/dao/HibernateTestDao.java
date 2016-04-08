@@ -6,7 +6,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 
-import com.hibernate.entity.HibernateTest;
+import com.hibernate.entity.User;
 
 @Repository
 public class HibernateTestDao {
@@ -21,7 +21,7 @@ public class HibernateTestDao {
 		return sessionFactory.getCurrentSession();
 	}
 	
-	public void save(HibernateTest hibernateTest){
-		getSession().saveOrUpdate(hibernateTest);
+	public void save(User user){
+		getSession().saveOrUpdate(user);
 	}
 }
